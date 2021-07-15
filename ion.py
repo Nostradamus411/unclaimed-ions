@@ -39,7 +39,7 @@ def write_unclaimed(dict):
 # Call remote public node to check if Osmo address has performed any actions
 # Sequence number of 0 means no tx have happened from the account ==> inferred unclaimed ion
 def chain_action(addr):
-    cmd = f'osmosisd query auth account {addr} --node=tcp://178.128.154.17:26657 -o json'
+    cmd = f'osmosisd query auth account {addr} -o json'
     output = subprocess.check_output(cmd, shell=True)
     output_dict = json.loads(output.decode('utf-8'))
     if int(output_dict['sequence']) > 0:
