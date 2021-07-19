@@ -184,5 +184,59 @@
         "prop5": {
             "vote": "Yes"
         }
+    },
+    "cosmos1wtv0kp6ydt03edd8kyr5arr4f3yc52vp5g7na0": {
+        "ions": 27,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "No"
+        },
+        "prop5": {
+            "vote": "Yes"
+        }
+    },
+    "cosmos19j2hd230c3hw6ds843yu8akc0xgvdvyu83c6xl": {
+        "ions": 23,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "Yes"
+        },
+        "prop5": {
+            "vote": "Yes"
+        }
+    },
+    "cosmos1ey69r37gfxvxg62sh4r0ktpuc46pzjrmz29g45": {
+        "ions": 21,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "NoWithVeto"
+        },
+        "prop5": {
+            "vote": "Yes"
+        }
     }
 }

@@ -21,7 +21,6 @@ def main():
             this_prop.update(vote)
             hub1_votes_dict[atom_addr][f'prop{prop}'] = this_prop
 
-
     # get deposit info
     for prop in hub1_props:
         dep_list = hub1_deposit(prop)
@@ -43,20 +42,17 @@ def main():
 
 # Output txt file of the total amount of unclaimed ions
 def write_json(dict,hub):
-    with open(f'hub{hub}_votes_dict.json', 'w') as out:
+    with open(f'ions_test_hub{hub}_gov.json', 'w') as out:
         out.write(dict)
 
 def hub1_deposit(prop):
     cmd = f'~/cosmos/hub1/gaiacli query gov deposits {prop} -o json  --trust-node'
-    try:
-        output = subprocess.check_output(cmd, shell=True)
-        output_dict = json.loads(output.decode('utf-8'))
-        if output_dict is None:
-            return [{"depositor":"empty","proposal_id":"empty","amount":[{"denom":"empty","amount":"empty"}]}]
-        else:
-            return output_dict
-    except subprocess.CalledProcessError as e:
+    output = subprocess.check_output(cmd, shell=True)
+    output_dict = json.loads(output.decode('utf-8'))
+    if output_dict is None:
         return [{"depositor":"empty","proposal_id":"empty","amount":[{"denom":"empty","amount":"empty"}]}]
+    else:
+        return output_dict
 
 def hub1_vote(prop,addr):
     cmd = f'~/cosmos/hub1/gaiacli query gov vote {prop} {addr} -o json  --trust-node'
@@ -64,12 +60,12 @@ def hub1_vote(prop,addr):
         output = subprocess.check_output(cmd, shell=True, stderr=subprocess.STDOUT)
         output_dict = json.loads(output.decode('utf-8'))
         return output_dict
-    except subprocess.CalledProcessError as e:
+    except:
         return {'proposal_id': prop, 'option': 'DidNotVote'}
 
 # Open ion airdrop json file
 def open_drop_file():
-    with open("ion_test.json","r") as file:
+    with open("ions_test.json","r") as file:
         file_py_obj = json.load(file)      
     return file_py_obj
 
