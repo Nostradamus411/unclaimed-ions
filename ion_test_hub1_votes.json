@@ -1,0 +1,188 @@
+{
+    "cosmos1000ya26q2cmh399q4c5aaacd9lmmdqp92z6l7q": {
+        "ions": 12,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "DidNotVote"
+        },
+        "prop5": {
+            "vote": "NoWithVeto"
+        }
+    },
+    "cosmos10058rcvwu2lyhjvqr30jcsjtjzd4rnnx0x76gr": {
+        "ions": 1,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "DidNotVote"
+        },
+        "prop5": {
+            "vote": "DidNotVote"
+        }
+    },
+    "cosmos1008tjxedvyn0x5v32x4e8th5wv0s7y6a6d00h0": {
+        "ions": 1,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "DidNotVote"
+        },
+        "prop5": {
+            "vote": "DidNotVote"
+        }
+    },
+    "cosmos100972xt2hjdu3ymp5a329muexme2xmtqe57wd9": {
+        "ions": 2,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "DidNotVote"
+        },
+        "prop5": {
+            "vote": "DidNotVote"
+        }
+    },
+    "cosmos10099qntz8qwewx2cc4me277u00wmhefw0fjzzn": {
+        "ions": 1,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "DidNotVote"
+        },
+        "prop5": {
+            "vote": "DidNotVote"
+        }
+    },
+    "cosmos1009r3l49ma9xpygnm80t0vp6hl3wx3pznmg6z2": {
+        "ions": 1,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "DidNotVote"
+        },
+        "prop5": {
+            "vote": "DidNotVote"
+        }
+    },
+    "cosmos1009ze9uyffl0u06f8fqzawj8p9prtrmjayzt3c": {
+        "ions": 1,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "DidNotVote"
+        },
+        "prop5": {
+            "vote": "DidNotVote"
+        }
+    },
+    "cosmos100a325n9ct4m2egvctrh48zheg2hwl5lt3fn5k": {
+        "ions": 2,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "DidNotVote"
+        },
+        "prop5": {
+            "vote": "DidNotVote"
+        }
+    },
+    "cosmos100a3h8gujg4ydnk0te6ru5nz9uh5eundgs829p": {
+        "ions": 2,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "DidNotVote"
+        },
+        "prop5": {
+            "vote": "DidNotVote"
+        }
+    },
+    "cosmos1sxx9mszve0gaedz5ld7qdkjkfv8z992arw3rr5": {
+        "ions": 20,
+        "prop1": {
+            "vote": "DidNotVote"
+        },
+        "prop2": {
+            "vote": "DidNotVote"
+        },
+        "prop3": {
+            "vote": "DidNotVote"
+        },
+        "prop4": {
+            "vote": "Yes",
+            "deposit": [
+                {
+                    "denom": "uatom",
+                    "amount": "250000000"
+                }
+            ]
+        },
+        "prop5": {
+            "vote": "Yes"
+        }
+    }
+}
