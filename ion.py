@@ -50,7 +50,7 @@ def chain_action(addr):
 
 # Open ion airdrop json file
 def open_drop_file():
-    with open("ions.json","r") as file:
+    with open("unclaimed_ions_2021_07_25_21_54_13.json","r") as file:
         file_py_obj = json.load(file)      
     return file_py_obj
 
